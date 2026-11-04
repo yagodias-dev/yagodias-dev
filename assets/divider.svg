@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="14" viewBox="0 0 1000 14" role="img" aria-label="divisor">
+  <style>
+    .spark { animation: move 6s ease-in-out infinite alternate; }
+    @keyframes move { from { transform: translateX(0); } to { transform: translateX(920px); } }
+    @media (prefers-reduced-motion: reduce) { .spark { animation: none; } }
+  </style>
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#e040fb"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="dot">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset=".35" stop-color="#e040fb"/>
+      <stop offset="1" stop-color="#e040fb" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="0" y="6" width="1000" height="2" fill="url(#g)"/>
+  <ellipse class="spark" cx="40" cy="7" rx="40" ry="6" fill="url(#dot)"/>
+</svg>
