@@ -79,10 +79,10 @@
 🇺🇸 *Task management REST API built with **Java 17 + Spring Boot**, JPA/Hibernate on **PostgreSQL (Supabase)**, **Dockerized** back-end on Render and front-end on Vercel.*<br/>
 `Java` `Spring Boot` `JPA` `PostgreSQL` `Docker`
 
-### ⚙️ [minha-api — FastAPI com CI/CD](https://github.com/yagodias-dev/minha-api)
-🇧🇷 API em **FastAPI** com testes em pytest, imagem **Docker** multi-stage com usuário sem privilégios e pipeline no **GitHub Actions**: testa, publica a imagem no Docker Hub e faz o deploy em **AWS EC2** (homologação pela `develop`, produção pela `main`), conferindo o `/health` no final.<br/>
-🇺🇸 ***FastAPI** service with pytest, multi-stage non-root **Docker** image and a **GitHub Actions** pipeline that tests, pushes to Docker Hub and deploys to **AWS EC2** (staging from `develop`, production from `main`) with a health check.*<br/>
-`Python` `FastAPI` `Docker` `GitHub Actions` `AWS EC2`
+### ⚙️ [fastapi-docker-ci](https://github.com/yagodias-dev/fastapi-docker-ci)
+🇧🇷 API em **FastAPI** com testes, **Docker** e pipeline de CI/CD no **GitHub Actions**, com aprovação manual antes de produção.<br/>
+🇺🇸 ***FastAPI** service with tests, **Docker** and a **GitHub Actions** CI/CD pipeline with manual approval before production.*<br/>
+`Python` `FastAPI` `Docker` `GitHub Actions`
 
 ### 🏭 [SMART 4.0 · Console de Expedição & OEE](https://github.com/yagodias-dev/expedicao) · *em equipe / team project*
 🇧🇷 Micro-frontend de uma planta industrial simulada: recebe telemetria por **WebSocket**, calcula o **OEE** (disponibilidade × performance × qualidade) e mostra gráficos e ordens de produção. Tem testes com Vitest e deploy automático na Vercel.<br/>
