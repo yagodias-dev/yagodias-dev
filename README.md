@@ -100,9 +100,6 @@
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=yagodias-dev&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&locale=pt-br&bg_color=0d0117&title_color=E040FB&icon_color=B388FF&text_color=E9D5FF&ring_color=E040FB" alt="Estatísticas do GitHub" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yagodias-dev&layout=compact&hide_border=true&langs_count=8&locale=pt-br&exclude_repo=machinaworks--26127950-,ECOCICLO-main,ConviteAlice,HelicopteroDeGuerra,projetinho-nisflei&bg_color=0d0117&title_color=E040FB&text_color=E9D5FF" alt="Linguagens mais usadas" />
-
 <img src="https://streak-stats.demolab.com?user=yagodias-dev&locale=pt_BR&hide_border=true&background=0D0117&ring=E040FB&fire=E040FB&currStreakNum=FFFFFF&sideNums=E9D5FF&currStreakLabel=E040FB&sideLabels=B388FF&dates=9D8AB8&stroke=2A1446" alt="Sequência de commits" />
 
 </div>
